@@ -9,6 +9,10 @@ This project was bootstrapped with [Vite](https://vitejs.dev/guide/).
 
 In the project directory, you can run:
 
+### `yarn`
+
+Install required dependencies to run the app.
+
 ### `yarn dev`
 
 Runs the app in the development mode.\
