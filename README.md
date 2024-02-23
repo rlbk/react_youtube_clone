@@ -23,7 +23,7 @@ Builds the app for production to the `dist` folder.
 
 ## Learn More
 
-You can learn more in the [Vite documentation](https://vitejs.dev/guide/).
-To learn React, check out the [React documentation](https://react.dev/).
-To learn Typescript, check out the [Typescript documentation](https://www.typescriptlang.org/docs/).
+You can learn more in the [Vite documentation](https://vitejs.dev/guide/).\
+To learn React, check out the [React documentation](https://react.dev/).\
+To learn Typescript, check out the [Typescript documentation](https://www.typescriptlang.org/docs/).\
 To learn Tailwind, check out the [Tailwind documentation](https://tailwindcss.com/docs/installation).
