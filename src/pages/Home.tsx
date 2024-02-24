@@ -23,14 +23,14 @@ const Home = () => {
   return (
     <div className="h-full">
       <NavBar />
-      <div className="flex mt-2 w-full">
+      <div className="flex mt-2 w-full md:flex-row flex-col  overflow-y-auto overflow-x-auto ">
         {video && (
-          <div className="w-3/4">
+          <div className="w-3/4 mx-auto ">
             <VideoDetail video={video} />
           </div>
         )}
 
-        <div className={`${video ? "w-1/4" : "w-full"}  `}>
+        <div className={`${video ? "w-full md:w-1/4" : "w-full"} mx-auto  `}>
           <VideoList />
         </div>
       </div>

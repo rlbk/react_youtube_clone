@@ -12,8 +12,8 @@ const VideoDetail = ({ video }: PropsI) => {
   const videosrc = `https://www.youtube.com/embed/${video.id.videoId}?autoplay=1`;
 
   return (
-    <div className="w-ful,">
-      <div className="h-[70vh] w-full">
+    <div className="w-ful ">
+      <div className="md:h-[70vh] h-[40vh] w-full">
         <iframe
           title="video player"
           src={videosrc}
@@ -21,10 +21,10 @@ const VideoDetail = ({ video }: PropsI) => {
         ></iframe>
       </div>
       <div className="mt-2">
-        <h4 className="text-xl font-semibold capitalize mb-4">
+        <h4 className="md:text-xl text-base font-semibold capitalize mb-4">
           {video.snippet.title}
         </h4>
-        <p>{video.snippet.description}</p>
+        <p className="hidden md:block">{video.snippet.description}</p>
       </div>
     </div>
   );
